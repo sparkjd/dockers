@@ -5,4 +5,4 @@ services:
     ports:
       - "127.0.0.1:5432:5432"
     volumes:
-      - "/Users/spark/dockers/pg/pg_data:/var/lib/postgresql/data"
+      - "./pg_data:/var/lib/postgresql/data"

@@ -11,4 +11,4 @@ services:
     ports:
       - '3306:3306'
     volumes:
-      - "/Users/spark/dockers/mysql/mysql_data:/var/lib/mysql"
+      - "./mysql_data:/var/lib/mysql"
