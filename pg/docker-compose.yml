@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  pg_docker:
+    image: postgres:latest
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - "/Users/spark/dockers/pg/pg_data:/var/lib/postgresql/data"
